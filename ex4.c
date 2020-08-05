@@ -22,5 +22,13 @@ int main()
         }
     }
     printf("Heads: %d, Tails: %d\n",heads, tails);
+    
+    if(heads>tails){
+        printf("あなたの勝ちです\n");
+    }
+    else {
+       printf("あなたの負けです\n"); 
+    }
+    
     return 0;
 }
