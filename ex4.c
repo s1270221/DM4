@@ -30,10 +30,10 @@ int main()
     printf("Heads: %d, Tails: %d\n",heads, tails);
     
     if(heads>tails){
-        printf("あなたの勝ちです\n");
+        printf("%sの勝ちです\n",str);
     }
     else {
-       printf("あなたの負けです\n"); 
+       printf("%sの負けです\n",str); 
     }
     
     return 0;
