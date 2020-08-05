@@ -8,6 +8,12 @@ int main()
     int heads=0;
     int tails=0;
     
+    char str[8];
+    printf("あなたは誰ですか？ ");
+    scanf("%s",str);
+    printf("こんにちわ, %s\n",str);
+    
+    
     printf("Tossing a coin ...\n");
 
     for (i=0;i<3;i++){
